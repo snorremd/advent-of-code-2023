@@ -1,11 +1,28 @@
 <img src="./.assets/christmas_ferris.png" width="164">
 
-# 🎄 Advent of Code {year}
+# 🎄 Advent of Code 2023
 
 Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
+This is the first year I am solving Advent of Code in Rust.
+My solutions might not be the most idiomatic, but I am trying to learn as much as possible along the way.
+Having written a lot of Clojure and TypeScript I tend to rely on iterators and functional programming patterns.
+
+Note that per the template I am using and the wishes of the Advent of Code author I do not include my puzzle inputs in this repository.
+You can find the puzzle inputs for each day on the Advent of Code website, or you can use the aoc-cli as described below.
+
 <!--- advent_readme_stars table --->
 
+<!--- benchmarking table --->
+## Benchmarks
+
+| Day | Part 1 | Part 2 |
+| :---: | :---: | :---:  |
+| [Day 1](./src/bin/01.rs) | `176.8µs` | `563.0µs` |
+| [Day 2](./src/bin/02.rs) | `70.4µs` | `70.7µs` |
+| [Day 3](./src/bin/03.rs) | `609.5µs` | `620.3µs` |
+
+**Total: 2.11ms**
 <!--- benchmarking table --->
 
 ---
@@ -55,7 +72,7 @@ Tip: when editing a solution, `rust-analyzer` will display buttons for running /
 
 ### Download input & description for a day
 
-> **Note**  
+> **Note**
 > This command requires [installing the aoc-cli crate](#configure-aoc-cli-integration).
 
 ```sh
@@ -92,7 +109,7 @@ For example, running a benchmarked, optimized execution of day 1 would look like
 
 #### Submitting solutions
 
-> **Note**  
+> **Note**
 > This command requires [installing the aoc-cli crate](#configure-aoc-cli-integration).
 
 In order to submit part of a solution for checking, append the `--submit <part>` option to the `solve` command.
@@ -143,7 +160,7 @@ cargo clippy
 
 ### Read puzzle description in terminal
 
-> **Note**  
+> **Note**
 > This command requires [installing the aoc-cli crate](#configure-aoc-cli-integration).
 
 ```sh
@@ -161,7 +178,7 @@ cargo read <day>
 ### Configure aoc-cli integration
 
 1. Install [`aoc-cli`](https://github.com/scarvalhojr/aoc-cli/) via cargo: `cargo install aoc-cli --version 0.12.0`
-2. Create an `.adventofcode.session` file in your home directory and paste your session cookie. To retrieve the session cookie, press F12 anywhere on the Advent of Code website to open your browser developer tools. Look in _Cookies_ under the _Application_ or _Storage_ tab, and copy out the `session` cookie value. [^1] 
+2. Create an `.adventofcode.session` file in your home directory and paste your session cookie. To retrieve the session cookie, press F12 anywhere on the Advent of Code website to open your browser developer tools. Look in _Cookies_ under the _Application_ or _Storage_ tab, and copy out the `session` cookie value. [^1]
 
 Once installed, you can use the [download command](#download-input--description-for-a-day) and automatically submit solutions via the [`--submit` flag](#submitting-solutions).
 
