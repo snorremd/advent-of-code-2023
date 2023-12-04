@@ -18,11 +18,12 @@ You can find the puzzle inputs for each day on the Advent of Code website, or yo
 
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---:  |
-| [Day 1](./src/bin/01.rs) | `176.8µs` | `563.0µs` |
-| [Day 2](./src/bin/02.rs) | `70.4µs` | `70.7µs` |
-| [Day 3](./src/bin/03.rs) | `609.5µs` | `620.3µs` |
+| [Day 1](./src/bin/01.rs) | `177.3µs` | `564.5µs` |
+| [Day 2](./src/bin/02.rs) | `71.9µs` | `74.4µs` |
+| [Day 3](./src/bin/03.rs) | `602.2µs` | `624.6µs` |
+| [Day 4](./src/bin/04.rs) | `182.4µs` | `179.7µs` |
 
-**Total: 2.11ms**
+**Total: 2.48ms**
 <!--- benchmarking table --->
 
 ---
