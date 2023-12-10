@@ -1,4 +1,4 @@
-use itertools::{Itertools, enumerate, izip};
+use itertools::{Itertools, izip};
 
 advent_of_code::solution!(4);
 

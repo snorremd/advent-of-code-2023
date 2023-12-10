@@ -1,6 +1,6 @@
 use std::ops::RangeInclusive;
 
-use itertools::{enumerate, Itertools};
+use itertools::Itertools;
 
 advent_of_code::solution!(3);
 
@@ -60,8 +60,8 @@ fn gears(schematic: &Vec<Vec<char>>) -> Vec<Gear> {
         .map(|(index, line)| {
             line.iter()
                 .enumerate()
-                .filter(|(i, c)| **c == '*')
-                .map(move |(i, c)| Gear {
+                .filter(|(_, c)| **c == '*')
+                .map(move |(i, _)| Gear {
                     line: index,
                     position: i,
                 })

@@ -1,7 +1,5 @@
 advent_of_code::solution!(5);
 
-use std::str::Split;
-
 use itertools::Itertools;
 
 // Returns iterator of tuples of (usize, usize, usize)
@@ -28,12 +26,6 @@ fn location_part_1(seed: usize, ranges: &Vec<Vec<(usize, usize, usize)>>) -> usi
         }
     }
     seed
-}
-
-fn location_part_2(seed_ranges: Vec<(usize, usize)>, tables: Vec<Vec<(usize, usize, usize)>>) -> usize {
-
-
-    0
 }
 
 pub fn part_one(input: &str) -> Option<usize> {
@@ -70,7 +62,7 @@ pub fn part_two(input: &str) -> Option<usize> {
         .map(|possible_location| {
             let mut seed = possible_location.clone();
             for table in &tables {
-                let range = table.into_iter().find(|(dest, src, len)| seed >= *dest && seed < *dest + *len);
+                let range = table.into_iter().find(|(dest, _, len)| seed >= *dest && seed < *dest + *len);
                 if let Some((destination, source, _)) = range {
                     seed = seed + source - destination;
                 }

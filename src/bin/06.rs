@@ -1,4 +1,4 @@
-use itertools::{multizip, Itertools};
+use itertools::Itertools;
 
 advent_of_code::solution!(6);
 
