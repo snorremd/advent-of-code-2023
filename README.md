@@ -18,15 +18,16 @@ You can find the puzzle inputs for each day on the Advent of Code website, or yo
 
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---:  |
-| [Day 1](./src/bin/01.rs) | `179.2µs` | `583.1µs` |
-| [Day 2](./src/bin/02.rs) | `73.7µs` | `73.3µs` |
-| [Day 3](./src/bin/03.rs) | `680.3µs` | `643.4µs` |
-| [Day 4](./src/bin/04.rs) | `185.6µs` | `186.8µs` |
+| [Day 1](./src/bin/01.rs) | `188.0µs` | `561.7µs` |
+| [Day 2](./src/bin/02.rs) | `73.1µs` | `70.7µs` |
+| [Day 3](./src/bin/03.rs) | `670.0µs` | `618.6µs` |
+| [Day 4](./src/bin/04.rs) | `185.5µs` | `181.2µs` |
 | [Day 5](./src/bin/05.rs) | `23.5µs` | `2.0s` |
-| [Day 6](./src/bin/06.rs) | `238.0ns` | `17.7ms` |
-| [Day 7](./src/bin/07.rs) | `539.8µs` | `9.8ms` |
+| [Day 6](./src/bin/06.rs) | `454.0ns` | `17.2ms` |
+| [Day 7](./src/bin/07.rs) | `516.1µs` | `9.4ms` |
+| [Day 8](./src/bin/08.rs) | `806.7µs` | `793.6µs` |
 
-**Total: 2030.67ms**
+**Total: 2031.29ms**
 <!--- benchmarking table --->
 
 ---
